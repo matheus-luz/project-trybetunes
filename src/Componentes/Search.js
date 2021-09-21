@@ -57,7 +57,6 @@ class Search extends React.Component {
 
   render() {
     const { buttonForm, inputForm, album, error, loading, resultAlbum } = this.state;
-    console.log(resultAlbum);
     return (
       <div data-testid="page-search">
         <Header />
